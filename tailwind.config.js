@@ -6,12 +6,18 @@ export default {
     "./App.tsx",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      colors: {
+        slate: {
+          950: '#020617',
+        }
+      }
     },
   },
   plugins: [],
